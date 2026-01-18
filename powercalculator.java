@@ -11,34 +11,34 @@ public class powercalculator
         {
             while(true)
             {
-                System.out.println("HELLO");
-                System.out.println("WELCOME TO POWER CALCULATOR");
-                System.out.println("ENTRE AMPERE");
+                System.out.println("Hello");
+                System.out.println("Welcome to Power Calculator");
+                System.out.println("Enter Ampere");
                 a=read.nextDouble();
-                if(a>0)
+                if(a>=0)
                 {
-                    System.out.println("ENTRE VOLTAGE");
+                    System.out.println("Enter Voltage");
                     v=read.nextDouble();
-                    if(v>0)
+                    if(v>=0)
                     {
                         w=a*v;
-                        System.out.println("POWER IS");
-                        System.out.println(w+"WATT");
-                        System.out.println("THANKS");
-                        System.out.println("BYE");
+                        System.out.println("Power is");
+                        System.out.println(w+" Watt");
+                        System.out.println("Thanks");
+                        System.out.println("Bye");
                         System.out.println(".");
                     }
-                    if(v<0)
+                    else if(v<0)
                     {
-                        System.out.println("VOLTAGE CANT BE NEGATIVE");
-                        System.out.println("TRY AGAIN");
+                        System.out.println("Voltage can't be negative");
+                        System.out.println("Try again");
                         System.out.println(".");
                     }
                 }
-                if(a<0)
+                else if(a<0)
                 {
-                    System.out.println("AMPERE CANT BE NEGATIVE");
-                    System.out.println("TRY AGAIN");
+                    System.out.println("Ampere can't be negative");
+                    System.out.println("Try again");
                     System.out.println(".");
                 }
             }
@@ -46,3 +46,5 @@ public class powercalculator
     }
 
 }
+
+
