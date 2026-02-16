@@ -46,9 +46,10 @@ public class power_calculator
                     }
                     if(power==0)
                     {
-                        System.out.println("power can't be Zero");
-                        System.out.println("Try again");
-                        System.out.println(" ");
+                        System.out.println();
+                        System.out.println("value is");
+                        System.out.println("1");
+                        System.out.println();
                     }
                 }
                 if(no==0)
@@ -80,4 +81,5 @@ public class power_calculator
             }
         }
     }
+
 }
